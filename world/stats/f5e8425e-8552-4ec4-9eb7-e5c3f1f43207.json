@@ -1,11 +1,23 @@
 {
   "stats": {
+    "minecraft:used": {
+      "minecraft:spruce_planks": 6,
+      "minecraft:stripped_oak_wood": 1
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 59,
-      "minecraft:total_world_time": 59,
-      "minecraft:leave_game": 1,
-      "minecraft:play_time": 59,
-      "minecraft:time_since_death": 59
+      "minecraft:time_since_rest": 33747,
+      "minecraft:walk_one_cm": 2077,
+      "minecraft:leave_game": 3,
+      "minecraft:play_time": 33747,
+      "minecraft:jump": 70,
+      "minecraft:time_since_death": 33747,
+      "minecraft:sprint_one_cm": 5517,
+      "minecraft:total_world_time": 33747,
+      "minecraft:fly_one_cm": 1040945,
+      "minecraft:walk_on_water_one_cm": 228,
+      "minecraft:crouch_one_cm": 81,
+      "minecraft:sneak_time": 144,
+      "minecraft:climb_one_cm": 162
     }
   },
   "DataVersion": 4671

@@ -1,242 +1,378 @@
-[06:49:18] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1044-azure (amd64)
-[06:49:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-126-main@3f5728e (2026-02-28T11:49:07Z) for Minecraft 1.21.11
-[06:49:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:49:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 19 plugins
-[06:49:23] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[06:55:37] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1044-azure (amd64)
+[06:55:37] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-126-main@3f5728e (2026-02-28T11:49:07Z) for Minecraft 1.21.11
+[06:55:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:55:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 19 plugins
+[06:55:40] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - MiniMOTD (2.2.2), PlugManX (3.0.3)
-[06:49:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (17):
+[06:55:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (17):
  - Essentials (2.21.2), EssentialsChat (2.21.2), EssentialsDiscord (2.21.2), EssentialsProtect (2.21.2), EssentialsSpawn (2.21.2), Geyser-Spigot (2.9.4-SNAPSHOT), GrimAC (2.3.73-272a889), PlaceholderAPI (2.12.2), ProtocolLib (5.4.0), ShopGUIPlus (1.112.0), TAB (5.5.0), Vault (1.7.3-b131), ViaBackwards (5.7.2), ViaRewind (4.0.15), ViaVersion (5.7.2), floodgate (2.2.5-SNAPSHOT (b130-d73192f)), packetevents (2.11.2)
-[06:49:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[06:49:33] [ServerMain/INFO]: Loaded 1470 recipes
-[06:49:33] [ServerMain/INFO]: Loaded 1584 advancements
-[06:49:33] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[06:49:34] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 816.4ms
-[06:49:34] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[06:49:34] [Server thread/INFO]: Loading properties
-[06:49:34] [Server thread/INFO]: This server is running Paper version 1.21.11-126-main@3f5728e (2026-02-28T11:49:07Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[06:49:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[06:49:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:49:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:49:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[06:49:35] [Server thread/INFO]: Default game type: SURVIVAL
-[06:49:35] [Server thread/INFO]: Generating keypair
-[06:49:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:49:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[06:49:36] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[06:49:37] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[06:49:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.2
-[06:49:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.2 is now loaded. Registering protocol transformers and injecting...
-[06:49:38] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[06:49:38] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[06:49:39] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[06:49:39] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[06:49:40] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[06:49:41] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[06:49:41] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b130-d73192f)
-[06:49:42] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[06:49:42] [Server thread/INFO]: [floodgate] Took 1,053ms to boot Floodgate
-[06:49:42] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.7.2
-[06:49:42] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
-[06:49:42] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
-[06:49:42] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.3
-[06:49:42] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.4-SNAPSHOT
-[06:49:42] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[06:49:42] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[06:49:42] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[06:49:43] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[06:49:43] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.15
-[06:49:43] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.21.2
-[06:49:43] [Server thread/INFO]: [ShopGUIPlus] Loading server plugin ShopGUIPlus v1.112.0
-[06:49:43] [Server thread/INFO]: [EssentialsProtect] Loading server plugin EssentialsProtect v2.21.2
-[06:49:43] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.73-272a889
-[06:49:43] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[06:49:47] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.2.2
-[06:49:47] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.2
-[06:49:49] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
-[06:49:49] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.5.0
-[06:49:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:49:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[06:49:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[06:49:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[06:49:49] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[06:49:49] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.3
-[06:49:50] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[06:49:50] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[06:49:50] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[06:49:50] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[06:49:50] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
-[06:49:50] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[06:49:50] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
-[06:49:50] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[06:49:50] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.15
-[06:49:50] [Server thread/INFO]: Preparing level "world"
-[06:49:51] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[06:49:51] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[06:49:52] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[06:49:52] [Server thread/INFO]: Preparing spawn area: 100%
-[06:49:52] [Server thread/INFO]: Prepared spawn area in 4 ms
-[06:49:52] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[06:49:52] [Server thread/INFO]: Preparing spawn area: 100%
-[06:49:52] [Server thread/INFO]: Prepared spawn area in 3 ms
-[06:49:52] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[06:49:52] [Server thread/INFO]: Preparing spawn area: 100%
-[06:49:52] [Server thread/INFO]: Prepared spawn area in 17 ms
-[06:49:52] [Server thread/INFO]: Done preparing level "world" (1.152s)
-[06:49:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.2
-[06:49:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
-[06:49:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[06:49:53] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[06:49:53] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[06:49:53] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[06:49:53] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[06:49:53] [Server thread/INFO]: [Essentials] Found 1 files to convert...
-[06:49:53] [Server thread/INFO]: [Essentials] Converted 0/1
-[06:49:53] [Server thread/INFO]: [Essentials] Ban format update complete.
-[06:49:53] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[06:49:53] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[06:49:53] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[06:49:53] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[06:49:53] [Server thread/INFO]: [Essentials] Done converting mail list.
-[06:49:53] [Server thread/INFO]: [Essentials] #===========================================================================#
-[06:49:53] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[06:49:53] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[06:49:53] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[06:49:53] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[06:49:53] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[06:49:53] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[06:49:53] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[06:49:53] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[06:49:53] [Server thread/INFO]: [Essentials] 
-[06:49:53] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[06:49:53] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[06:49:53] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[06:49:53] [Server thread/INFO]: [Essentials] #===========================================================================#
-[06:49:53] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
-[06:49:53] [Server thread/INFO]: [Essentials] #===========================================================================#
-[06:49:53] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[06:49:53] [Server thread/INFO]: [Essentials] 
-[06:49:53] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[06:49:53] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
-[06:49:53] [Server thread/INFO]: [Essentials] 
-[06:49:53] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[06:49:53] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[06:49:53] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[06:49:53] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[06:49:53] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[06:49:53] [Server thread/INFO]: [Essentials] #===========================================================================#
-[06:49:54] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[06:49:54] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[06:49:54] [Server thread/INFO]: [Essentials] Using locale en
-[06:49:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[06:49:56] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[06:49:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[06:49:56] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[06:49:56] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b130-d73192f)
-[06:49:56] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.7.2
-[06:49:56] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
-[06:49:57] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[06:49:57] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
-[06:49:57] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[06:49:57] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.4-SNAPSHOT
-[06:49:59] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.2
-[06:50:00] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
-[06:50:00] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
-[06:50:00] [Server thread/ERROR]: [EssentialsDiscord] An error occurred while logging into Discord, which has caused the plugin to disable itself: 
+[06:55:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06:55:49] [ServerMain/INFO]: Loaded 1470 recipes
+[06:55:49] [ServerMain/INFO]: Loaded 1584 advancements
+[06:55:49] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[06:55:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 837.9ms
+[06:55:50] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[06:55:50] [Server thread/INFO]: Loading properties
+[06:55:50] [Server thread/INFO]: This server is running Paper version 1.21.11-126-main@3f5728e (2026-02-28T11:49:07Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[06:55:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[06:55:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:55:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:55:51] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[06:55:51] [Server thread/INFO]: Default game type: SURVIVAL
+[06:55:51] [Server thread/INFO]: Generating keypair
+[06:55:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:55:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:55:51] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[06:55:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[06:55:52] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.2
+[06:55:52] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.2 is now loaded. Registering protocol transformers and injecting...
+[06:55:53] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:55:53] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[06:55:53] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:55:53] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:55:54] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[06:55:54] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[06:55:54] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b130-d73192f)
+[06:55:55] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[06:55:55] [Server thread/INFO]: [floodgate] Took 570ms to boot Floodgate
+[06:55:55] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.7.2
+[06:55:55] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[06:55:55] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
+[06:55:55] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.3
+[06:55:55] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.4-SNAPSHOT
+[06:55:55] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[06:55:55] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[06:55:55] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[06:55:55] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[06:55:55] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.15
+[06:55:55] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.21.2
+[06:55:55] [Server thread/INFO]: [ShopGUIPlus] Loading server plugin ShopGUIPlus v1.112.0
+[06:55:55] [Server thread/INFO]: [EssentialsProtect] Loading server plugin EssentialsProtect v2.21.2
+[06:55:55] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.73-272a889
+[06:55:56] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[06:55:58] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.2.2
+[06:55:58] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.2
+[06:55:59] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
+[06:55:59] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.5.0
+[06:55:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:55:59] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[06:55:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[06:55:59] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[06:55:59] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[06:55:59] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.3
+[06:56:00] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[06:56:00] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[06:56:00] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[06:56:00] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[06:56:00] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
+[06:56:00] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[06:56:00] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
+[06:56:00] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[06:56:00] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.15
+[06:56:00] [Server thread/INFO]: Preparing level "world"
+[06:56:00] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[06:56:00] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[06:56:00] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[06:56:00] [Server thread/INFO]: Prepared spawn area in 0 ms
+[06:56:00] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[06:56:00] [Server thread/INFO]: Prepared spawn area in 1 ms
+[06:56:00] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[06:56:00] [Server thread/INFO]: Prepared spawn area in 1 ms
+[06:56:00] [Server thread/INFO]: Done preparing level "world" (0.394s)
+[06:56:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.2
+[06:56:00] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[06:56:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[06:56:00] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[06:56:01] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[06:56:01] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[06:56:01] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[06:56:01] [Server thread/INFO]: [Essentials] Using locale en
+[06:56:01] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[06:56:01] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[06:56:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[06:56:01] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[06:56:01] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b130-d73192f)
+[06:56:01] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.7.2
+[06:56:01] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[06:56:02] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[06:56:02] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[06:56:02] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[06:56:02] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.4-SNAPSHOT
+[06:56:03] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.2
+[06:56:03] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[06:56:03] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
+[06:56:03] [Server thread/ERROR]: [EssentialsDiscord] An error occurred while logging into Discord, which has caused the plugin to disable itself: 
 No token provided! Please follow the tutorial in the config in order to setup the plugin.
-[06:50:00] [Server thread/INFO]: [ShopGUIPlus] Enabling ShopGUIPlus v1.112.0
-[06:50:00] [Server thread/INFO]: [ShopGUIPlus] [STDOUT] [Spigotunlocked.com] - COSMO
-[06:50:00] [Server thread/WARN]: Nag author(s): '[brc]' of 'ShopGUIPlus v1.112.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[06:50:01] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.21.2
-[06:50:01] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
-[06:50:01] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
-[06:50:01] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.73-272a889
-[06:50:01] [Server thread/INFO]: [GrimAC] Registering packets...
-[06:50:01] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[06:50:02] [Server thread/INFO]: Grim Version: 2.3.73-272a889
-[06:50:02] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed ViaBackwards on a 1.21.2+ server.
-[06:50:02] [Server thread/WARN]: [GrimAC] This setup is currently unsupported and you will experience issues with older clients using vehicles.
-[06:50:02] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[06:50:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: grim [2.3.73-272a889]
-[06:50:02] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.2.2
-[06:50:02] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.2
-[06:50:02] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[06:50:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
-[06:50:02] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[06:50:02] [Server thread/INFO]: [TAB] Enabling TAB v5.5.0
-[06:50:02] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.2)
-[06:50:03] [Server thread/INFO]: [TAB] Enabled in 694ms
-[06:50:03] [Server thread/INFO]: [spark] Starting background profiler...
-[06:50:04] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[06:50:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[06:50:05] [Server thread/INFO]: [Geyser-Spigot] 
-[06:50:05] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.4-b1093 (git-master-3e92818)
-[06:50:05] [Server thread/INFO]: [Geyser-Spigot] 
-[06:50:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[06:50:13] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[06:50:13] [Server thread/INFO]: [Geyser-Spigot] Done (8.525s)! Run /geyser help for help!
-[06:50:14] [Server thread/INFO]: Running delayed init tasks
-[06:50:14] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[06:50:14] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[06:50:14] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[06:50:14] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
-[06:50:14] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.112.0 ]================================
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus]  
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] Need help using ShopGUI+? Check out our Wiki or Join our Discord Support server!
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] https://docs.brcdev.net/ & https://discord.brcdev.net/
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus]  
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] Vault economy registered.
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] Vault economy enabled.
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] No external spawner plugins registered, using built-in spawners support.
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] Loaded 10 main menu items.
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'miscellaneous' with 9 items.
-[06:50:14] [Craft Scheduler Thread - 8 - GrimAC/INFO]: You are using the latest version of GrimAC
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'farming' with 18 items.
-[06:50:14] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'armor' with 24 items.
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'ores' with 8 items.
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'drops' with 18 items.
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocks' with 37 items.
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'tools' with 15 items.
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'dyes' with 16 items.
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'food' with 19 items.
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 shops with total of 164 items.
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus] Loaded 0 permission-based price modifiers.
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus] Loaded 7 sounds.
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus]  
-[06:50:15] [Server thread/INFO]: [ShopGUIPlus] ====================================================================================
-[06:50:15] [Server thread/INFO]: Done (58.298s)! For help, type "help"
-[06:50:15] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[06:50:18] [Server thread/INFO]: NOSgaming3125 (/127.129.215.183:45503) lost connection: Disconnected
-[06:50:26] [User Authenticator #0/INFO]: UUID of player NOSgaming3125 is f5e8425e-8552-4ec4-9eb7-e5c3f1f43207
-[06:50:27] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Essentials, ProtocolLib]
-[06:50:30] [Server thread/INFO]: NOSgaming3125 joined the game
-[06:50:30] [TAB Processing Thread/INFO]: [TAB] [WARN] Player NOSgaming3125's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[06:50:30] [Server thread/INFO]: NOSgaming3125[/127.129.215.183:46415] logged in with entity id 1 at ([world]5.5, 66.0, 13.5)
-[06:50:34] [Netty Epoll IO #2/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_21_9/20...
-[06:50:34] [Netty Epoll IO #2/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_21_9/20 in 745.653727ms
-[06:50:44] [Async Chat Thread - #0/INFO]: <NOSgaming3125> .
-[06:51:09] [Server thread/INFO]: Made NOSgaming3125 a server operator
+[06:56:03] [Server thread/INFO]: [ShopGUIPlus] Enabling ShopGUIPlus v1.112.0
+[06:56:03] [Server thread/INFO]: [ShopGUIPlus] [STDOUT] [Spigotunlocked.com] - COSMO
+[06:56:03] [Server thread/WARN]: Nag author(s): '[brc]' of 'ShopGUIPlus v1.112.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[06:56:03] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.21.2
+[06:56:03] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[06:56:04] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[06:56:04] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.73-272a889
+[06:56:04] [Server thread/INFO]: [GrimAC] Registering packets...
+[06:56:04] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[06:56:04] [Server thread/INFO]: Grim Version: 2.3.73-272a889
+[06:56:04] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed ViaBackwards on a 1.21.2+ server.
+[06:56:04] [Server thread/WARN]: [GrimAC] This setup is currently unsupported and you will experience issues with older clients using vehicles.
+[06:56:04] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[06:56:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: grim [2.3.73-272a889]
+[06:56:04] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.2.2
+[06:56:04] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.2
+[06:56:04] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[06:56:04] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
+[06:56:04] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[06:56:04] [Server thread/INFO]: [TAB] Enabling TAB v5.5.0
+[06:56:04] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.2)
+[06:56:05] [Server thread/INFO]: [TAB] Enabled in 262ms
+[06:56:05] [Server thread/INFO]: [spark] Starting background profiler...
+[06:56:06] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[06:56:06] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[06:56:06] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[06:56:06] [Server thread/INFO]: [Geyser-Spigot] 
+[06:56:06] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.4-b1093 (git-master-3e92818)
+[06:56:06] [Server thread/INFO]: [Geyser-Spigot] 
+[06:56:06] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[06:56:11] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[06:56:11] [Server thread/INFO]: [Geyser-Spigot] Done (4.669s)! Run /geyser help for help!
+[06:56:11] [Server thread/INFO]: Running delayed init tasks
+[06:56:11] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[06:56:11] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[06:56:11] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[06:56:11] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] ================================[ ShopGUI+ 1.112.0 ]================================
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus]  
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Need help using ShopGUI+? Check out our Wiki or Join our Discord Support server!
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] https://docs.brcdev.net/ & https://discord.brcdev.net/
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus]  
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Vault economy registered.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Vault economy enabled.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Using Vault as default economy provider.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Permissions support enabled.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] No external spawner plugins registered, using built-in spawners support.
+[06:56:11] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Loaded 10 main menu items.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'miscellaneous' with 9 items.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'farming' with 18 items.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'armor' with 24 items.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'ores' with 8 items.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'drops' with 18 items.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'blocks' with 37 items.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'tools' with 15 items.
+[06:56:11] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'dyes' with 16 items.
+[06:56:12] [Server thread/INFO]: [ShopGUIPlus] Loaded shop 'food' with 19 items.
+[06:56:12] [Server thread/INFO]: [ShopGUIPlus] Loaded 9 shops with total of 164 items.
+[06:56:12] [Server thread/INFO]: [ShopGUIPlus] Loaded 0 permission-based price modifiers.
+[06:56:12] [Server thread/INFO]: [ShopGUIPlus] Loaded 7 sounds.
+[06:56:12] [Server thread/INFO]: [ShopGUIPlus]  
+[06:56:12] [Server thread/INFO]: [ShopGUIPlus] ====================================================================================
+[06:56:12] [Server thread/INFO]: Done (36.802s)! For help, type "help"
+[06:56:12] [Craft Scheduler Thread - 4 - GrimAC/INFO]: You are using the latest version of GrimAC
+[07:01:29] [User Authenticator #0/INFO]: UUID of player NOSgaming3125 is f5e8425e-8552-4ec4-9eb7-e5c3f1f43207
+[07:01:29] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Essentials, ProtocolLib]
+[07:01:31] [Server thread/INFO]: NOSgaming3125 joined the game
+[07:01:31] [TAB Processing Thread/INFO]: [TAB] [WARN] Player NOSgaming3125's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[07:01:31] [Server thread/INFO]: NOSgaming3125[/127.129.215.183:59363] logged in with entity id 1 at ([world]5.5, 66.0, 13.5)
+[07:01:33] [Netty Epoll IO #1/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_21_9/20...
+[07:01:34] [Netty Epoll IO #1/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_21_9/20 in 598.938586ms
+[07:01:39] [Server thread/INFO]: [NOSgaming3125: Set own game mode to Creative Mode]
+[07:01:47] [Async Chat Thread - #0/INFO]: <NOSgaming3125> TAKE THAT PLAYIT YOU NI
+[07:01:49] [Async Chat Thread - #1/INFO]: <NOSgaming3125> Ye
+[07:02:09] [Async Chat Thread - #1/INFO]: <NOSgaming3125> @sharp
+[07:02:10] [Async Chat Thread - #1/INFO]: <NOSgaming3125> @sharp
+[07:02:11] [Async Chat Thread - #1/INFO]: <NOSgaming3125> @sharp
+[07:02:18] [Async Chat Thread - #1/INFO]: <NOSgaming3125> 114
+[07:02:21] [Async Chat Thread - #1/INFO]: <NOSgaming3125> Top right
+[07:02:48] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username FindingSleet729 (924)
+[07:02:48] [localSession-7-2/INFO]: [Geyser-Spigot] FindingSleet729 (logged in as: FindingSleet729) has connected to the Java server
+[07:02:48] [TAB Processing Thread/INFO]: [TAB] [WARN] Player .FindingSleet729's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[07:02:48] [Server thread/INFO]: [floodgate] Floodgate player logged in as .FindingSleet729 joined (UUID: 00000000-0000-0000-0009-01f91c2df9a6)
+[07:02:48] [Server thread/INFO]: .FindingSleet729 joined the game
+[07:02:48] [Server thread/INFO]: .FindingSleet729[/127.151.227.247:0] logged in with entity id 1362 at ([world]8.5, 70.0, 8.5)
+[07:02:49] [Server thread/INFO]: .FindingSleet729 has made the advancement [Getting an Upgrade]
+[07:02:56] [Async Chat Thread - #1/INFO]: <NOSgaming3125> </3
+[07:03:06] [Async Chat Thread - #1/INFO]: <NOSgaming3125> Once i rape it itll work
+[07:03:38] [Async Chat Thread - #1/INFO]: <NOSgaming3125> This is so much better then m
+[07:03:39] [Async Chat Thread - #1/INFO]: <NOSgaming3125> mh
+[07:03:41] [Server thread/INFO]: NOSgaming3125 issued server command: /op @a
+[07:03:41] [Server thread/INFO]: [NOSgaming3125: Made .FindingSleet729 a server operator]
+[07:03:45] [Server thread/INFO]: .FindingSleet729 issued server command: /gamemode creative
+[07:03:49] [Server thread/INFO]: NOSgaming3125 issued server command: //wand
+[07:03:51] [Async Chat Thread - #1/INFO]: <NOSgaming3125> Yes
+[07:03:53] [Async Chat Thread - #1/INFO]: <NOSgaming3125> No filter
+[07:04:02] [Async Chat Thread - #1/INFO]: <NOSgaming3125> Wtf
+[07:04:21] [Async Chat Thread - #1/INFO]: <NOSgaming3125> Yah but i aint gonna pay for shi
+[07:04:35] [Async Chat Thread - #1/INFO]: <NOSgaming3125> Thats $10 to much
+[07:04:40] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Yea
+[07:04:48] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Ik
+[07:05:00] [Async Chat Thread - #0/INFO]: <NOSgaming3125> yes
+[07:05:04] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Fr
+[07:05:19] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Nah your admin
+[07:05:25] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Yea
+[07:05:32] [Async Chat Thread - #0/INFO]: <NOSgaming3125> You are smart
+[07:05:51] [Async Chat Thread - #0/INFO]: <NOSgaming3125> lmao
+[07:06:09] [Async Chat Thread - #0/INFO]: <NOSgaming3125> w
+[07:06:24] [Async Chat Thread - #0/INFO]: <NOSgaming3125> I lowky didnt even know who you are but like you chill and know stuff so
+[07:06:41] [Async Chat Thread - #0/INFO]: <NOSgaming3125> I have NEVER seen you once lmao
+[07:06:46] [Async Chat Thread - #0/INFO]: <NOSgaming3125> WHat time is it for you rn
+[07:06:49] [Async Chat Thread - #0/INFO]: <NOSgaming3125> One time </
+[07:06:51] [Async Chat Thread - #0/INFO]: <NOSgaming3125> </3
+[07:06:54] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Dammn
+[07:07:04] [Async Chat Thread - #0/INFO]: <NOSgaming3125> 2 hour a head a me
+[07:07:07] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Lol
+[07:07:10] [Async Chat Thread - #0/INFO]: <NOSgaming3125> SOunds baout right
+[07:07:25] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Yea
+[07:07:29] [Server thread/INFO]: .FindingSleet729 issued server command: /tp .FindingSleet729 NOSgaming3125
+[07:07:37] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Ima rape sharp if he doesnt get on rn
+[07:07:52] [Async Chat Thread - #0/INFO]: <NOSgaming3125> I could lowky run my proxy through this cause then people wouldnt have so much ping then lowky
+[07:08:00] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Yeah
+[07:08:10] [Async Chat Thread - #0/INFO]: <NOSgaming3125> I run like 8 servers tho
+[07:08:17] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Yea
+[07:08:28] [Async Chat Thread - #0/INFO]: <NOSgaming3125> Yea
+[07:08:37] [Server thread/INFO]: NOSgaming3125 issued server command: /sk jarvis jerk me rn
+[07:08:41] [Server thread/INFO]: NOSgaming3125 issued server command: /jarvis jerk me rn
+[07:08:54] [Async Chat Thread - #0/INFO]: <NOSgaming3125> W
+[07:11:33] [Server thread/INFO]: NOSgaming3125 lost connection: Disconnected
+[07:11:33] [Server thread/INFO]: NOSgaming3125 left the game
+[07:18:17] [User Authenticator #1/INFO]: UUID of player NOSgaming3125 is f5e8425e-8552-4ec4-9eb7-e5c3f1f43207
+[07:18:19] [TAB Processing Thread/INFO]: [TAB] [WARN] Player NOSgaming3125's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[07:18:19] [Server thread/INFO]: NOSgaming3125 joined the game
+[07:18:19] [Server thread/INFO]: NOSgaming3125[/127.129.215.183:40961] logged in with entity id 10223 at ([world]-426.4347566623636, 92.39178007710377, 396.61195693306394)
+[07:18:44] [Server thread/INFO]: .FindingSleet729 issued server command: /tp @s ~300 ~3 3000
+[07:18:59] [Server thread/INFO]: .FindingSleet729 issued server command: /minecraft:tp @s ~300 ~3 3000
+[07:18:59] [Server thread/INFO]: [.FindingSleet729: Teleported .FindingSleet729 to -651.452400, 93.451600, 3000.500000]
+[07:19:36] [Async Chat Thread - #3/INFO]: <NOSgaming3125> Y
+[07:19:38] [Async Chat Thread - #4/INFO]: <NOSgaming3125> Yea
+[07:19:43] [Server thread/INFO]: NOSgaming3125 issued server command: //sssssssssssssssssssssssssssssssssssssssssssssssssssss
+[07:19:56] [Server thread/INFO]: .FindingSleet729 issued server command: /tp .FindingSleet729 NOSgaming3125
+[07:20:09] [Server thread/INFO]: .FindingSleet729 issued server command: /plugins
+[07:20:25] [Server thread/INFO]: .FindingSleet729 issued server command: /pm
+[07:20:42] [Server thread/INFO]: .FindingSleet729 issued server command: /plugmanx:plm
+[07:21:09] [Server thread/INFO]: .FindingSleet729 issued server command: /plugmanx:plm info skript
+[07:21:27] [Server thread/INFO]: .FindingSleet729 issued server command: /plm info skbee
+[07:21:48] [Async Chat Thread - #5/INFO]: <NOSgaming3125> Huh
+[07:21:50] [Async Chat Thread - #5/INFO]: <NOSgaming3125> Wdym
+[07:22:06] [Async Chat Thread - #5/INFO]: <NOSgaming3125> Thats like dc
+[07:22:09] [Async Chat Thread - #5/INFO]: <NOSgaming3125> Lol
+[07:22:19] [Async Chat Thread - #5/INFO]: <NOSgaming3125> Me and my buddy are wokrin on it
+[07:22:43] [Async Chat Thread - #5/INFO]: <NOSgaming3125> Hold up
+[07:23:47] [Async Chat Thread - #7/INFO]: <NOSgaming3125> Ye
+[07:24:02] [Async Chat Thread - #7/INFO]: <NOSgaming3125> Yea
+[07:25:46] [Async Chat Thread - #10/INFO]: <NOSgaming3125> Bett
+[07:25:53] [Async Chat Thread - #10/INFO]: <NOSgaming3125> I fixed this stupid isssuie\
+[07:26:14] [Async Chat Thread - #10/INFO]: <NOSgaming3125> Sharp get on rn you nigg
+[07:26:16] [Async Chat Thread - #10/INFO]: <NOSgaming3125> ME
+[07:26:17] [Async Chat Thread - #10/INFO]: <NOSgaming3125> ME
+[07:26:17] [Async Chat Thread - #10/INFO]: <NOSgaming3125> ME
+[07:26:19] [Async Chat Thread - #10/INFO]: <NOSgaming3125> Jk
+[07:26:55] [Server thread/INFO]: .FindingSleet729 issued server command: /plugmanx:plm info worldedit
+[07:27:03] [Server thread/INFO]: .FindingSleet729 issued server command: /plugmanx:plm load worldedit
+[07:27:04] [Server thread/WARN]: [PlugManX] Failed to read descriptor for minimotd-paper-2.2.2.jar - skipping
+[07:27:04] [Server thread/WARN]: [PlugManX] Failed to read descriptor for PlugManX-3.0.3.jar - skipping
+[07:27:24] [Server thread/INFO]: NOSgaming3125 issued server command: /day
+[07:27:45] [Async Chat Thread - #11/INFO]: <NOSgaming3125> My laptop is selling rn
+[07:27:47] [Async Chat Thread - #11/INFO]: <NOSgaming3125> tWt
+[07:27:51] [Async Chat Thread - #11/INFO]: <NOSgaming3125> Wth
+[07:28:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[07:28:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[07:28:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'ShopGUIPlus' to create a bStats instance!
+[07:29:09] [Async Chat Thread - #13/INFO]: <NOSgaming3125> Is this normal
+[07:29:11] [Async Chat Thread - #13/INFO]: <NOSgaming3125> Lol
+[07:29:19] [Async Chat Thread - #13/INFO]: <NOSgaming3125> Ok
+[07:29:20] [Async Chat Thread - #13/INFO]: <NOSgaming3125> Nvm then
+[07:29:30] [Async Chat Thread - #13/INFO]: <NOSgaming3125> Ima rape you
+[07:29:38] [Async Chat Thread - #13/INFO]: <NOSgaming3125> W
+[07:30:02] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] FindingSleet729 has disconnected from the Java server because of Bedrock client disconnected
+[07:30:02] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .FindingSleet729 disconnected
+[07:30:02] [Server thread/INFO]: .FindingSleet729 lost connection: Disconnected
+[07:30:02] [Server thread/INFO]: .FindingSleet729 left the game
+[07:30:46] [Async Chat Thread - #15/INFO]: <NOSgaming3125> Sharp Sharp Sharp Sharp Sharp Sharp Sharp Sharp Sharp Sharp Sharp Sharp Sharp Sharp Sharp
+[07:34:29] [Server thread/INFO]: NOSgaming3125 issued server command: /rgjwerghuoewrklg
+[07:34:30] [Server thread/INFO]: NOSgaming3125 issued server command: /rgjwerghuoewrklg
+[07:34:30] [Server thread/INFO]: NOSgaming3125 issued server command: /rgjwerghuoewrklg
+[07:34:31] [Server thread/INFO]: NOSgaming3125 issued server command: /rgjwerghuoewrklg
+[07:34:31] [Server thread/INFO]: NOSgaming3125 issued server command: /rgjwerghuoewrklg
+[07:36:22] [Server thread/INFO]: NOSgaming3125 lost connection: Disconnected
+[07:36:22] [Server thread/INFO]: NOSgaming3125 left the game
+[07:37:18] [Server thread/INFO]: Stopping the server
+[07:37:18] [Server thread/INFO]: Stopping server
+[07:37:18] [Server thread/INFO]: [TAB] Disabling TAB v5.5.0
+[07:37:18] [Server thread/INFO]: [TAB] Disabled in 0ms
+[07:37:18] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
+[07:37:18] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.2
+[07:37:18] [Server thread/INFO]: [MiniMOTD] Disabling MiniMOTD v2.2.2
+[07:37:18] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.73-272a889
+[07:37:18] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[07:37:18] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.21.2
+[07:37:18] [Server thread/INFO]: [ShopGUIPlus] Disabling ShopGUIPlus v1.112.0
+[07:37:18] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.21.2
+[07:37:18] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.15
+[07:37:18] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[07:37:18] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.4-SNAPSHOT
+[07:37:18] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[07:37:18] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[07:37:18] [Server thread/INFO]: [PlugManX] Disabling PlugManX v3.0.3
+[07:37:18] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
+[07:37:18] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.12.2
+[07:37:18] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.7.2
+[07:37:18] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b130-d73192f)
+[07:37:18] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[07:37:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[07:37:18] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.7.2
+[07:37:18] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[07:37:18] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[07:37:18] [Server thread/INFO]: Saving players
+[07:37:19] [Server thread/INFO]: Saving worlds
+[07:37:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:37:19] [WebSocketConnectReadThread-109/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[07:37:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[07:37:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:37:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:37:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:37:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:37:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:37:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:37:19] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:37:19] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:37:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:37:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
